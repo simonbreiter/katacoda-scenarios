@@ -14,6 +14,11 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "foo", "target": "/root", "chmod": "+rw"}
+      ]
     }
   },
   "environment": {
