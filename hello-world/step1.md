@@ -1,7 +1,7 @@
 This is your first step.
 
-## Task
+## Start a container
 
 This is an _example_ of creating a scenario and running a **command**
 
-`echo 'Hello World'`{{execute}}
+`docker run -d -p 80:80 docker/getting-started`{{execute}}
