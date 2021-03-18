@@ -17,9 +17,9 @@
     },
     "assets": {
       "host01": [
-        {"file": "foo", "target": "/", "chmod": "+rw"},
-        {"file": "Dockerfile", "target": "/", "chmod": "+rw"},
-        {"file": "hello.c", "target": "/", "chmod": "+rw"}
+        {"file": "foo", "target": "/root", "chmod": "+rw"},
+        {"file": "Dockerfile", "target": "/root", "chmod": "+rw"},
+        {"file": "hello.c", "target": "/root", "chmod": "+rw"}
       ]
     }
   },
