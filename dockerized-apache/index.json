@@ -23,7 +23,6 @@
     },
     "assets": {
       "host01": [
-        {"file": "Dockerfile", "target": "/root", "chmod": "+rw"},
         {"file": "index.php", "target": "/root/src", "chmod": "+rw"}
       ]
     }
