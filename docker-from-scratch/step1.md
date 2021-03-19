@@ -1,3 +1,5 @@
+In this tutorial we build a docker image from scratch, literally.
+
 ## Dockerfile
 
 When building Docker containers you define your base image in your `Dockerfile`. The scratch image is the smallest possible image for docker. 
