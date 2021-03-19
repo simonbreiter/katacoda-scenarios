@@ -1,5 +1,7 @@
 ## Dockerfile
 
+[link](https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com)
+
 When building Docker containers you define your base image in your `Dockerfile`. The scratch image is the smallest possible image for docker. 
 
 ## Compile executable
