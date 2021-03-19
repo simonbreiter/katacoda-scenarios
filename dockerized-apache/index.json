@@ -4,14 +4,16 @@
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
-    "steps": [{
-      "title": "Starting your container",
-      "text": "step1.md"
-    }],
-    "steps": [{
-      "title": "Interacting with your container",
-      "text": "step2.md"
-    }],
+    "steps": [
+      {
+        "title": "Starting your container",
+        "text": "step1.md"
+      },
+      {
+        "title": "Interacting with your container",
+        "text": "step2.md"
+      }
+    ],
     "intro": {
       "text": "intro.md",
       "credits": ""
