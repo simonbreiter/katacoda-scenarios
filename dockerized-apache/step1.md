@@ -4,3 +4,7 @@ To run a prebuilt image run:
 
 This will start apache server on port [8080](https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com) and mounts the content of your local `src` folder to the container.
 
+To view your running container:
+
+
+`docker ps`{{execute}}

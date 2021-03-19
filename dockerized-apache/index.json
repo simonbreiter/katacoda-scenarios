@@ -5,7 +5,11 @@
   "time": "2 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1",
+      "title": "Starting your container",
+      "text": "step1.md"
+    }],
+    "steps": [{
+      "title": "Interacting with your container",
       "text": "step1.md"
     }],
     "intro": {
