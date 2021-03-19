@@ -1,0 +1,31 @@
+{
+  "title": "Docker from scratch",
+  "description": "Your First Scenario",
+  "difficulty": "beginner",
+  "time": "2 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1",
+      "text": "step1.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "Dockerfile", "target": "/root", "chmod": "+rw"},
+        {"folder": "src", "target": "/root", "chmod": "+rw"}
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
