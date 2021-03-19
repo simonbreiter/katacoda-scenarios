@@ -1,24 +1,6 @@
-## Dockerfile
+To run a prebuilt image run:
 
-[link](https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com)
+`docker run -d -p 8080:80 --name my-apache-php-app -v "$PWD/src:/var/www/html" php:7.2-apache`{{execute}}
 
-When building Docker containers you define your base image in your `Dockerfile`. The scratch image is the smallest possible image for docker. 
-
-## Compile executable
-
-In order to run binary files on a scratch image, your executables need to be statically compiled and self-contained. This means there is no compiler in the image so you’re left with just system calls.
-
-`gcc -o hello hello.c -static`{{execute}}
-
-## Build image
-
-Now build and tag your image.
-
-`docker build --tag hello .`{{execute}}
-
-## Run container
-
-After you build your image you can ship it, share it with others or run it locally.
-
-`docker run hello`{{execute}}
+This will start apache server on port [8080](https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com) and mounts the content of your local `src` folder to the container.
 
