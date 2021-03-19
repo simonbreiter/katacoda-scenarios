@@ -1,5 +1,5 @@
 {
-  "title": "Docker from scratch",
+  "title": "Dockerized Apache",
   "description": "Your First Scenario",
   "difficulty": "beginner",
   "time": "2 minutes",
@@ -18,7 +18,7 @@
     "assets": {
       "host01": [
         {"file": "Dockerfile", "target": "/root", "chmod": "+rw"},
-        {"folder": "src", "target": "/root", "chmod": "+rw"}
+        {"file": "index.php", "target": "/root/src", "chmod": "+rw"}
       ]
     }
   },
